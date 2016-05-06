@@ -1,6 +1,6 @@
 # fileMulti2TableMod1
 
-Lets say you have multiple files with the same first column and you want to merge them. Use this awk script **fileMulti2TableMod1**. All files will be compared to the rows from 1st column of the 1st file. if one of the files has a missing value(s) even though they contain the correct element in first column, rows with missing values are not excluded but missing values are set to 0.
+Lets say you have multiple files with the same first column and you want to merge them. Use this awk script **fileMulti2TableMod1**. All files will be compared to the rows from 1st column of the 1st file. if one of the files has a missing value(s) even though they contain the correct element in first column, rows with missing values are not excluded but missing values are set to 0. Rows with column 1 not present in column 1 of the first file will not be shown, as well as those rows from the first file that are missing in other files' first columns. Only those rows with 1st columns present in every file are shown. See example.
 
 # Usage
 <pre>
