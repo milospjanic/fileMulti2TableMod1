@@ -55,9 +55,9 @@ do	456
 now	
 string
 
-
-
-awk -f fileMulti2TableMod1.awk 1.test 2.test 3.test 4.test 5.test 6.test
-
+DN52ei1f:~ milospjanic$ awk -f fileMulti2TableMod1.awk 1.test 2.test 3.test 4.test 5.test 6.test 
+do 6 4 67 555 456 456
+now 7 4 6 75 567  0
+string 5 4 5  0  0  0
 
 </pre>
